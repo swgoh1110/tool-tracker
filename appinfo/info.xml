@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+    <id>tooltracker</id>
+    <name>Tool Tracker</name>
+    <description>Track tools using QR codes</description>
+    <version>0.1.0</version>
+    <licence>agpl</licence>
+    <author>Lionel Sauty</author>
+    <namespace>ToolTracker</namespace>
+    <dependencies>
+        <nextcloud min-version="20" max-version="27" />
+    </dependencies>
+	<class>OCA\ToolTracker\AppInfo\Application</class>
+	<migrations>
+		<migration>OCA\ToolTracker\Migration\Version000001</migration>
+	</migrations>
+</info>

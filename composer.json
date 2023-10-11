@@ -1,0 +1,14 @@
+{
+  "name": "nextcloud/tooltracker",
+  "description": "Tool tracking application for Nextcloud",
+  "type": "project",
+  "license": "AGPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "OCA\\ToolTracker\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  }
+}
